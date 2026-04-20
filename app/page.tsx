@@ -267,12 +267,12 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="mb-10 rounded-2xl overflow-hidden relative" style={{ aspectRatio: '16/6' }}>
+          <div className="mb-10 rounded-2xl overflow-hidden relative" style={{ aspectRatio: '16/9' }}>
             <Image
               src="/media/solution.webp"
               alt="People moving through Indian streets — diverse everyday movement"
               fill
-              className="object-contain"
+              className="object-cover"
               sizes="100vw"
             />
           </div>
@@ -360,7 +360,7 @@ export default function HomePage() {
               </Button>
             </div>
             <p className="text-xs text-bone-muted mt-8">
-              Sole-arium is not a diagnostic device. Outputs are intended to inform, not replace, clinical assessment.
+              Our outputs are intended to inform, not replace, clinical assessment.
             </p>
           </div>
         </div>
